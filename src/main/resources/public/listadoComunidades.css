@@ -1,0 +1,10 @@
+#contenerdorComunidad {
+    background-color: #f0f0f0;
+    height: calc(100vh - 174px) !important;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+.fondoContenedor {
+    height: calc(100vh - 221px) !important;
+}

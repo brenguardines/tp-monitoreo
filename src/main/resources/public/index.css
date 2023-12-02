@@ -1,0 +1,25 @@
+.container-fluid {
+    display: grid;
+    justify-content: center;
+    margin-top: 11%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 90px;
+    width: 230px;
+    height: 62px;
+    background-color: #526881;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.col:hover {
+    background-color: #2F435A;
+    cursor: pointer;
+}

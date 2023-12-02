@@ -1,0 +1,33 @@
+form {
+    height: 300px;
+    width: 416px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#botonCrear {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+#botonCrear span {
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+}
+
+.form-floating > label {
+    padding: 7px !important;
+}
+
+.form-floating {
+    margin-top: 8px;
+}
+
+.form-floating > .form-control, .form-floating > .form-control-plaintext, .form-floating > .form-select {
+    height: 52px !important;
+    min-height: fit-content !important;
+}

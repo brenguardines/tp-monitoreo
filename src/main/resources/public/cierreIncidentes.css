@@ -1,0 +1,59 @@
+.card {
+    background-color: #f4f2ff !important;
+    margin: 30px 50px;
+    padding: 10px 20px;
+    height: 57vh !important;
+}
+
+.contenedor {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 900px;
+}
+
+.form-check-input {
+    margin-right: 20px;
+}
+
+#buscadorCierre {
+    display: flex !important;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+#servicio {
+    margin-right: 20px;
+    width: 65%;
+}
+
+#botonBuscarCierre {
+    padding: 2px 35px;
+    background-color: #f4f2ff;
+}
+
+#botonCerrar {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+
+}
+
+#botonCerrar button {
+    padding: 10px 90px;
+    background-color: #2F435A;
+    color: white;
+    border-radius: 9px;
+}
+
+scroll-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.titulosItems {
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 35px;
+    font-size: 33px;
+    font-family: system-ui;
+}
+
+#contenedor {
+    width: 100%;
+    height: 420px;
+    border-style: groove;
+}
+
+#lista {
+    text-align: start;
+    position: relative;
+    right: 50px;
+}

@@ -1,0 +1,23 @@
+form {
+    height: 400px;
+    width: 718px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-floating {
+    margin: 10px;
+}
+
+#botonCrearCuenta {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#botonCrearCuenta input {
+    width: 276px;
+}
+

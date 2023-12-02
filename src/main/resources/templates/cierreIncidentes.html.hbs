@@ -1,0 +1,41 @@
+{{# partial "contenido" }}
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="/cierreIncidentes.css">
+        <link rel="stylesheet" type="text/css" href="/layout.css">
+    </head>
+
+    <body>
+    <form id="buscadorCierre" action="/cierreIncidentes" method="POST">
+        <input type="text" id="servicio" name="servicio" placeholder="Incidente">
+        <button id="botonBuscarCierre" onclick="location.href='http://localhost:8000/cierreIncidentes'"> Buscar</button>
+    </form>
+
+    <form action="/cerrar" method="POST">
+        <div class="card">
+            <scroll-container>
+                {{#each incidentes}}
+                    <div class="contenedor">
+                        <input class="form-check-input" type="checkbox" value="{{id}}" name="incidenteId"
+                               id="checkbox{{this.id}}">
+                        <span class="form-check-label" for="checkbox{{this.id}}">
+                                <div><span class="titulosItems">Id incidente: </span>{{id}}</div>
+                                <div><span class="titulosItems">Título incidente: </span>{{observacion}}</div>
+                                <div><span class="titulosItems">Establecimiento: </span>{{establecimiento.nombre}}</div>
+                                <div><span class="titulosItems">Servicio: </span>{{servicio.nombre}}</div>
+                            </span>
+                    </div>
+                {{/each}}
+            </scroll-container>
+        </div>
+        <div id="botonCerrar" onclick="location.href='http://localhost:8000/listadoIncidentes'">
+            <button>Cerrar</button>
+        </div>
+    </form>
+
+
+    </body>
+{{/partial}}
+
+{{> layout.html.hbs }}
+

@@ -1,0 +1,46 @@
+#formModificar {
+    height: 400px;
+    width: 718px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.form-floating {
+    margin: 10px;
+}
+
+#formCerrar {
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#botonGuardarDatos {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#botonGuardarDatos input {
+    width: 276px;
+}
+
+#botonCerrarCuenta {
+    justify-content: end;
+}
+
+#botonCerrarCuenta input {
+    width: 166px;
+    height: 38px;
+    background-color: #c8c8c8;
+    color: black;
+}
+
+form {
+    padding: 1px;
+}

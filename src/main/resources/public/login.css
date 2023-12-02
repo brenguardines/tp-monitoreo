@@ -1,0 +1,26 @@
+form {
+    height: 300px;
+    width: 416px;
+}
+
+#botonIniciarSesion {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+#botonIniciarSesion span {
+    width: 100%;
+}
+
+#registrarse {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 22px;
+    font-size: 13px;
+}
+
+#registrarse a {
+    color: black;
+    font-weight: 700;
+}
