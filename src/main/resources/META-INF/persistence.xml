@@ -25,15 +25,18 @@
 
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
             <property name="hibernate.connection.url"
-                      value="jdbc:mysql://localhost:3306/prueba?serverTimezone=America/Buenos_Aires"/>
-            <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value="123456"/>
+                      value="jdbc:mysql://monitoreobd.mysql.database.azure.com:3306/prueba?serverTimezone=America/Buenos_Aires"/>
+            <property name="hibernate.connection.username" value="root123"/>
+            <property name="hibernate.connection.password" value="Monitoreo.23"/>
 
 
             <!--property name="hibernate.connection.password" value="123456" />
             <property name="hibernate.connection.username" value="root123"/>
             <property name="hibernate.connection.password" value="Monitoreo.23"/>
-
+ <property name="hibernate.connection.url"
+                      value="jdbc:mysql://localhost:3306/prueba?serverTimezone=America/Buenos_Aires"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="123456"/>
 
             <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbcDriver"/>
             CONTRASEÑIA
